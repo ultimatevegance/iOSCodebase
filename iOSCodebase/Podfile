@@ -4,37 +4,37 @@ target 'iOSAppTemplateSwift' do
     use_frameworks!
     
     # Framwork
-    pod 'RxSwift'
-    pod 'RxCocoa'
+    	pod 'RxSwift'
+    	pod 'RxCocoa'
     # UI Components
-    pod 'RAMAnimatedTabBarController' # a Swift UI module for adding animation to tabbar items
-    pod 'SwiftyOnboard'
-    pod 'FSPagerView' # FSPagerView is an elegant Screen Slide Library. It is extremely helpful for making Banner View、Product Show、Welcome/Guide Pages、Screen/ViewController Sliders.
-  # Animation 
-    pod 'Hero' # Elegant transition library for iOS & tvOS(https://github.com/lkzhao/Hero)
-    pod 'Spring', :git => 'https://github.com/MengTo/Spring.git' # A library to simplify iOS animations in Swift
+	pod 'Presentr'
+  	pod 'SwiftyOnboard'
+    	pod 'FSPagerView' # FSPagerView is an elegant Screen Slide Library. It is extremely helpful for making Banner View、Product Show、Welcome/Guide Pages、Screen/ViewController Sliders.
+    # Animation 
+   	pod 'Hero' # Elegant transition library for iOS & tvOS(https://github.com/lkzhao/Hero)
+    	pod 'Spring', :git => 'https://github.com/MengTo/Spring.git' # A library to simplify iOS animations in Swift
     
-  # Data Persistence
-    pod 'RealmSwift' # Realm is a mobile database: a replacement for Core Data & SQLite
+    # Data Persistence
+    	pod 'RealmSwift' # Realm is a mobile database: a replacement for Core Data & SQLite
     
-  # Data Parsing 
-    pod 'SwiftyJSON' # The better way to deal with JSON data in Swift(https://github.com/SwiftyJSON/SwiftyJSON#integration)
+    # Data Parsing 
+    	pod 'SwiftyJSON' # The better way to deal with JSON data in Swift(https://github.com/SwiftyJSON/SwiftyJSON#integration)
 
-  # Networking
-    pod 'Moya'# Network abstraction layer written in Swift. 
-    pod 'Alamofire', '~> 4.5' # Elegant HTTP Networking in Swift
-    pod 'ObjectMapper'
-  # Version Manager
-    pod 'Siren'
+    # Networking
+	pod 'Siesta/Alamofire'
+    	pod 'Moya'# Network abstraction layer written in Swift. 
+    	pod 'Alamofire', '~> 4.5' # Elegant HTTP Networking in Swift
+    	pod 'ObjectMapper'
+    # Version Manager
+    	pod 'Siren'
 
-  # Tools
-    pod 'SnapKit', '~> 4.0.0' # A Swift Autolayout DSL for iOS & OS X http://snapkit.io
-    pod 'Kingfisher', '~> 4.0' # A lightweight, pure-Swift library for downloading and caching images from the web
-    pod 'Reveal-SDK', :configurations => ['Debug'] # Debug Tool
-    pod 'SwiftIconFont'
-    pod 'LGButton'
-    pod 'SwifterSwift' # A handy collection of more than 500 native Swift extensions to boost your productivity. https://swifterswift.com
-    pod 'ChameleonFramework/Swift'
+    # Tools
+    	pod 'SnapKit', '~> 4.0.0' # A Swift Autolayout DSL for iOS & OS X http://snapkit.io
+    	pod 'Kingfisher', '~> 4.0' # A lightweight, pure-Swift library for downloading and caching images from the web
+    	pod 'Reveal-SDK', :configurations => ['Debug'] # Debug Tool
+    	pod 'SwiftIconFont'
+   	pod 'SwifterSwift' # A handy collection of more than 500 native Swift extensions to boost your productivity. https://swifterswift.com
+    	pod 'ChameleonFramework/Swift'
 
   target 'iOSAppTemplateSwiftTests' do
     inherit! :search_paths
